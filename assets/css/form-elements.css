@@ -1,6 +1,6 @@
 
-input[type="text"], 
-textarea, 
+input[type="text"],
+textarea,
 textarea.form-control {
     margin: 0;
     padding: 0 10px;
@@ -25,21 +25,21 @@ textarea.form-control {
     transition: all .3s;
 }
 
-input[type="text"]:focus, 
-textarea:focus, 
+input[type="text"]:focus,
+textarea:focus,
 textarea.form-control:focus {
 	outline: 0;
-    border: 1px solid #42bfc2;
+    border: 1px solid #2dad67;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
 
-.contact-form form input, 
+.contact-form form input,
 .contact-form form textarea { border: 2px solid #fff; }
 
-.contact-form form input:focus, 
-.contact-form form textarea:focus { border: 2px solid #42bfc2; }
+.contact-form form input:focus,
+.contact-form form textarea:focus { border: 2px solid #2dad67; }
 
 input[type="text"]:-moz-placeholder, textarea:-moz-placeholder, textarea.form-control:-moz-placeholder { color: #888; }
 input[type="text"]:-ms-input-placeholder, textarea:-ms-input-placeholder, textarea.form-control:-ms-input-placeholder { color: #888; }
@@ -51,7 +51,7 @@ button.btn {
     margin: 0;
     padding: 0 20px;
     vertical-align: middle;
-    background: #42bfc2;
+    background: #2dad67;
     border: 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 22px;
@@ -95,12 +95,12 @@ button.btn:active {
 
 button.btn:focus {
 	outline: 0;
-	background: #42bfc2;
+	background: #2dad67;
 	color: #fff;
 }
 
 .btn:focus, .btn:active:focus, .btn.active:focus {
 	outline: 0;
-	background: #42bfc2;
+	background: #2dad67;
 	color: #fff;
 }
